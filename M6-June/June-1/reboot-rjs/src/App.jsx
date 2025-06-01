@@ -1,10 +1,15 @@
+import Navbar from "./components/Navbar"
+import Task from "./components/Task"
 
 
 function App() {
 
   return (
     <>
-      <div className="bg-red-300">hello</div>
+      <div className="bg-purple-200 h-screen">
+        <Navbar />
+        <Task />
+      </div>
     </>
   )
 }
